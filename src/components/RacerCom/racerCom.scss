@@ -1,0 +1,28 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+.OurWork{
+  width: 100%;
+  height: 100%;
+  background-color: #FFFFFF;
+  padding: 5rem 0;
+  .container-fluid{
+    max-width: 85% !important;
+    .OurWork-h2{
+      padding: 1rem 0;
+      font-weight: lighter;
+      font-size: 4rem;
+      color: #000000;
+    }
+    .line{
+      height: 0.5rem;
+      background: rgb(35, 217, 151);
+      margin-bottom: 3rem;
+    }
+    .OurWorkImg{
+      width: 100% !important;
+    }
+  }
+}

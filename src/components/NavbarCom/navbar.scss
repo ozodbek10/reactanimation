@@ -1,0 +1,27 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+.Navbar{
+  min-height: 100px !important;
+  font-size: 20px !important;
+  background: rgb(40, 40, 40) !important;
+}
+.container-fluid{
+  max-width: 85% !important;
+  .Navbar-Brand{
+    font-size: 1.5rem;
+    font-family: Lobster, cursive !important;
+    font-weight: lighter;
+  }
+  .Nav{
+    .nav-item{
+      color: #FFFFFF !important;
+      margin-right: 10rem;
+    }
+    .nav-item:last-child{
+      margin-right: 0;
+    }
+  }
+}

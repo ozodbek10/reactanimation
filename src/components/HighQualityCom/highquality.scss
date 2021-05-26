@@ -1,0 +1,44 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+.highQuality{
+  margin-top: 10rem !important;
+  .container-fluid{
+    max-width: 85% !important;
+    .highQuality-h2{
+      padding-top: 4rem;
+      padding-bottom: 3rem;
+      font-weight: lighter;
+      color: white;
+      font-size: 4rem;
+      .span{
+        font-weight: bold !important;
+        color: rgb(35, 217, 151) !important;
+      }
+    }
+    .d-flex{
+      .highQuality-h3{
+        margin-left: 1rem !important;
+        background: white !important;
+        color: black !important;
+        padding: 1rem !important;
+      }
+    }
+    .col-6{
+      .highQuality-p{
+        width: 70%;
+        padding: 2rem 0 4rem;
+        color: rgb(204, 204, 204);
+        font-size: 1.4rem;
+        line-height: 150%;
+      }
+    }
+    .highQualityImg{
+      width: 100% !important;
+      height: 80vh !important;
+    }
+  }
+}
+
